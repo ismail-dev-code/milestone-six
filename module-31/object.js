@@ -1,6 +1,7 @@
 const person = {
   name: "abul",
   profession: "actor",
+  1: true,
   details: {
     company: "bfdc",
     district: "sylhet",
@@ -14,4 +15,6 @@ const person = {
   },
 };
 
-console.log(person.details.mother?.isFamous);
+console.log(person["1"]);
+// console.log(person["details"] ["district"]);
+// console.log(person.details.mother?.isFamous);
